@@ -6,13 +6,13 @@ println("On toString(): ${hariData.toString()}")
 
 //copy method with some property changes
 val selvaData = hariData.copy(personName = "Selva", officeId = "1256")
-println("toString() after copy() : ${selvaData.toString()}")
+println("\ntoString() after copy() : ${selvaData.toString()}")
 
 //Destructuring, using componentN names
 val (person, bankAccNum, _, panNo) = hariData
-println("Destructured data : for $person, the bank account number is $bankAccNum and PAN number is $panNo")
+println("\nDestructured data : for $person, the bank account number is $bankAccNum and PAN number is $panNo")
 
 val (_, _, officeNo) = selvaData
-println("Destructured data : for Selva, the office number is $officeNo")
+println("\nDestructured data : for Selva, the office number is $officeNo")
 
-println("Explicit call for component 1 gives: ${hariData.component1()}")
+println("\nExplicit call for component 1 gives: ${hariData.component1()}")
