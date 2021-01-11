@@ -99,3 +99,5 @@ val stud2 = Student("Selva", "23345", "ten", 2010)
 stud2.updateYearEndResult(90)
 println("\nThe year end result of ${stud2.name} is ${stud2.yearEndResult}, with the grading system: ${stud2.rankingSystem}")
 println("${stud2.name} belongs to the ${stud2.presentOrPastSet} set")
+
+
