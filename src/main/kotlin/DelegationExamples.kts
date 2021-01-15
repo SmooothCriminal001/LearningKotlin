@@ -99,7 +99,7 @@ println("\nImportance of primary constructor parameter in 'by' usage:")
 //primary constructor property is 'var' here, so could be changed later
 //employee on the right is the parameter fed in, and employee after 'var' is the property of the class
 //this line is equivalent to saying: this.employee = employee
-class HR(val employee: Programmer): Programmer by employee
+class HR(var employee: Programmer): Programmer by employee
 
 val employee1 = HR(Developer())
 print("Developer's work through HR -> ")
