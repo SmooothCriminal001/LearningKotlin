@@ -43,6 +43,7 @@ class PoliteMap(val dataMap: MutableMap<String, Any>){
 }
 
 //The class where the delegation is to work. dataMap here will hold all the property-value pairs
+//dataMap could just be a parameter, no need to be a property, because the reference of this map is only going to be used
 class UserStory(dataMap: MutableMap<String, Any>){
 
     //Properties delegated
