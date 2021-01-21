@@ -60,7 +60,7 @@ class UserStory(dataMap: MutableMap<String, Any>){
 }
 
 //Two mutableMaps created to serve as data sources. Second map in the list is empty at the start
-val storiesList = listOf(
+val storiesList: List<MutableMap<String, Any>> = listOf(
         mutableMapOf("title" to "First story", "likes" to 10, "comments" to "Usual comment"),
         mutableMapOf<String, Any>()
 )
