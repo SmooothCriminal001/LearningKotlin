@@ -25,5 +25,5 @@ val fibonacciSeries = sequence {
     }
 }
 
-println("\nFibonacci series, first 10 values : ${fibonacciSeries.take(10).toList()}")
 println("\nFibonacci series, after first 20 values : ${fibonacciSeries.drop(20).take(10).toList()}")
+println("\nFibonacci series, first 10 values : ${fibonacciSeries.take(10).toList()}")
